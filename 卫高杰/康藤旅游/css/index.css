@@ -1,0 +1,299 @@
+@import url('base.css');
+.header{
+	width: 100%;
+	height: 40px;
+	background: #EA9D20;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.header .left{
+	width: 981px;
+	height: 40px;
+}
+.header .right{
+	width: 288px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+.header .left span{
+	font-size: 12px;
+	line-height: 40px;
+	margin-right: 20px;
+	color:white;
+}
+.header .left .iconfont{
+	color:white;
+	font-size: 12px;
+}
+.header .right .zuo{
+	width: 35px;
+	height: 40px;
+	text-align: center;
+}
+.header .right .you{
+	width: 17px;
+	height: 40px;
+	text-align: center;
+}
+.header .right a{
+	display:block;
+	font-size:12px;
+	line-height: 40px;
+	color: white;
+}
+.logo{
+	width: 100%;
+	height: 176px;
+	display:flex;
+	justify-content: center;
+	z-index: 9999;
+}
+.logo .left{
+	width: 357px;
+	height: 176px;
+	background: url(../img/logo.png) no-repeat;
+	background-size: 219px 150px;
+}
+.logo .right{
+	width: 912px;
+	height: 176px;
+}
+.logo .right .top{
+	width: 912px;
+	height: 60px;
+	margin-top: 90px;
+	display:flex;
+	justify-content: flex-end;
+}
+.logo .right .search{
+	width:56px;
+	height: 60px;
+	margin-right: 50px;
+	position: relative;
+}
+.logo .right .search:nth-child(1){
+	width:28px;
+	border-bottom:5px solid #ea9d20;
+}
+.logo .right .search a{
+	display: block;
+	width: 56px;
+	height: 60px;
+	color:#ea9d20;
+	font-size: 14px;
+	font-weight: 600;
+	margin-right: 30px;
+	line-height: 50px;
+}
+.logo .right .search:hover{
+	border-bottom:5px solid #ea9d20;
+}
+.logo .right .search .box{
+	width: 320px;
+	height: 81px;
+	background: red;
+	position: absolute;
+	top:65px;
+	left:0;
+}
+
+
+
+
+
+.mid{
+	width: 1259px;
+	height: 545px;
+	margin:0 auto;
+	margin-top: 176px;
+	position: relative;
+}
+.mid .top{
+	width: 1251px;
+	height: 512px;
+	border: 4px solid white;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.mid .bottom{
+	width: 1259px;
+	height: 21px;
+	display: flex;
+	justify-content: center;
+}
+.mid .bottom .yuan{
+	width: 8px;
+	height: 8px;
+	background: #666;
+	border-radius: 20px;
+	margin-right: 10px; 
+	margin-top: 520px; 
+}
+.mid .bottom .yuan:nth-child(1){
+	background: black;
+}
+.mid .bottom .yuan:hover{
+	cursor: pointer;
+}
+
+
+.kang{
+	width: 1024px;
+	height: 100px;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+}
+.kang .teng{
+	width: 236px;
+	height: 100px;
+	border-left: 1px dashed #dd9933;
+	border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+.kang .teng:nth-child(4){
+	border-right: 1px dashed #dd9933; 
+}
+.kang .teng .circle{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	margin-left: 85px;
+}
+.kang .teng .iconfont:hover{
+	color: #fff;
+	cursor: pointer;
+}
+.kang .teng .circle:hover{
+	background:#9c6a36;
+	color:#fff;
+	cursor: pointer;
+}
+.kang .teng .bottom{
+	width: 224px;
+	height: 28px;
+	font-size: 13px;
+	color:#696969;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+.kang .teng .iconfont{
+	font-size:35px;
+	color:#9c6a36;
+}
+
+
+.word{
+	width: 100%;
+	height: 141px;
+	text-align: center;
+}
+.word h2{
+	font-size: 14px;
+	color:rgb(81,81,81);
+	margin-top: 50px;
+}
+.word h3{
+	font-size: 14px;
+	color:rgb(81,81,81);
+}
+.word h4{
+	font-size: 14px;
+	color:rgb(81,81,81);
+}
+
+
+.show{
+	width: 1112px;
+	height: 246px;
+	margin:0 auto;
+	display: flex;
+	justify-content:center;
+}
+.show .box{
+	width: 364px;
+	height: 246px;
+	margin-right: 10px;
+}
+.show .box:hover{
+	opacity: 0.3;
+}
+
+
+
+.biaozhi{
+	width: 1219px;
+	height: 225px;
+}
+.biaozhi img{
+	width: 300px;
+	height: 100%;
+	margin:0 auto;
+}
+
+.intro{
+	width: 100%;
+	height: 227px;
+	background: #eaeaea;
+	display:flex;
+	justify-content: center;
+}
+.intro .left{
+	width: 331px;
+	height: 125px;
+	display: flex;
+	flex-direction: column;
+}
+.intro .midd{
+	width: 331px;
+	height: 167px;
+	display: flex;
+	flex-direction: column;
+}
+.intro .right{
+	width: 331px;
+	height: 83px;
+}
+.intro h2{
+	color: rgb(105, 105, 105);
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.intro a{
+	font-size: 12px;
+	color: rgb(128, 128, 128);
+	text-align: center;
+}
+.intro h3,h4,h5{
+	font-size: 12px;
+    color: rgb(128, 128, 128);
+    text-align: center;
+}
+.intro h3{
+	margin-top: 50px;
+}
+
+
+
+.finish{
+	width: 100%;
+	height: 39px;
+	background: #eaeaea;
+}
+.finish h2,h3{
+	font-size: 12px;
+	color:rgb(128,128,128);
+	text-align: center;
+}
